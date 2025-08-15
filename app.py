@@ -1,3 +1,7 @@
-python code
-we can add here
-python is pythoning
+def fun(p, t, r):
+    return (p * t * r) / 100
+
+p, t, r = 8, 6, 8
+
+res = fun(p, t, r)
+print(res)
